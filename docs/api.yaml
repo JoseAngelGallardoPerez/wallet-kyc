@@ -1,0 +1,19 @@
+openapi: 3.0.0
+info:
+  version: "0.0.1"
+  title: Wallet KYC Service
+security:
+  - bearerAuth: []
+paths: {}
+
+
+components:
+  schemas: {}
+
+  parameters: {}
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
